@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Download.css">
+    <title>地图</title>
+    <meta name="theme-color" content="#000000">
+    </head>
+<body>
+    <script src="https://img.bee-zh.cn/Image/fx-icon.ico"></script>
+    <header>
+        <h1>选择下载线路</h1>
+    </header>
+
+    <div class="download-section">
+        <h2>线路一：123网盘（不限速）</h2>
+        <button class="download-button" onclick="downloadFile('https://www.123pan.com/s/Xyvfjv-7C29d')">下载</button>
+    </div>
+
+    <div class="download-section">
+        <h2>线路二：huang1111网盘（不限速）</h2>
+        <button class="download-button" onclick="downloadFile('https://pan.huang1111.cn/s/aGwGHG')">下载</button>
+    </div>
+
+    <div class="download-section">
+        <h2>线路三：蓝奏云（不限速）</h2>
+        <h3>(密码:mifeng)</h3>
+        <button class="download-button" onclick="downloadFile('https://wwp.lanzouq.com/b007sm1uqb')">下载</button>
+
+    </div>
+
+    <script>
+        function downloadFile(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
